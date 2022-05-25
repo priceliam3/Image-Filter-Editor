@@ -1,0 +1,42 @@
+#can {
+    width: 600px;
+    height: 600px;
+    border: black 1px solid;
+}
+
+.dheader {
+    display: flex;
+    justify-content: center;
+}
+
+.ccan {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.dbuttons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.buttons {
+    margin: 5px;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.header {
+    color: rgb(17, 231, 53)
+}
+
+.bg{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}

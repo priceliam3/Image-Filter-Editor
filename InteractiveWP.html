@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Filter Editor</title>
+    <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <script src="InteractiveWP.js"></script>
+    <link rel="stylesheet" href="InteractiveWP.css">
+</head>
+<body>
+    <div class="dheader">
+        <h1 class="header">
+            Image Filter Editor
+        </h1>
+    </div>
+    <div class="dcan">
+        <h2>
+            
+        </h2>
+        <div class="ccan">
+            <canvas class="can" id="can"></canvas>
+        </div>
+    </div>
+    <div class="dbuttons">
+        <input class="buttons" type="file" multiple="false" accept="image/*" id="finput" onchange="upload()">
+        <input class="buttons" type="button" value="Greyscale" onclick="makeGray()">
+        <input class="buttons" type="button" value="Sepia" onclick="makeSepia()">
+        <input class="buttons" type="button" value="Warm" onclick="makeFilterTwo()">
+        <input class="buttons" type="button" value="Reset" onclick="reset()">
+    </div>
+    <img class="bg" src="bg-desktop.svg" alt="">
+</body>
+</html>
